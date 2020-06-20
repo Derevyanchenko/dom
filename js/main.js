@@ -37,13 +37,13 @@ $(document).ready(function() {
           breakpoint: 991,
           settings: {
             arrows: true,
-            dots: true
+            dots: false
           }
         }
       ]
     }); 
 
-    $(".cta_btn, .get-call").on("click", function (event) {
+    $(".btn-js, .get-call").on("click", function (event) {
  
       //отменяем стандартную обработку нажатия по ссылке
  
